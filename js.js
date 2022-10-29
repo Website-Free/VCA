@@ -233,3 +233,7 @@ function startCountdown() {
     }, 6000) 
 }
 startCountdown();
+
+function curand() {
+    alert("In curand");
+  }
