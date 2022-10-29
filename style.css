@@ -133,3 +133,17 @@ img {
 .quiz-repeat a:hover {
     background-color: var(--color-primary);
 }
+.lili {
+    font-size: 1.5rem;
+    padding: 5px;
+}
+.alex {
+    padding: 5px;
+    background-color: yellowgreen;
+    font-size: 1,8rem;
+    color:var(--black);
+    border: 1px solid var(--color-primary);
+    cursor:pointer;
+    border-radius: 20px;
+    width: 70px;
+}
