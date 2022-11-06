@@ -70,7 +70,7 @@ function showProgress() {
 function showScores() {
     let quizEndHTML = 
     `
-    <h1>Quiz Complet,trebuie corecte 28 din 40 de intrebari.<h1>
+    <h1>Quiz Completat,trebuie corecte 28 din 40 de intrebari.<h1>
     <h2 id="score">Scorul tau: ${quiz.score} din ${quiz.
     questions.length}</h2>
     <div class="quiz-repeat">
