@@ -70,11 +70,11 @@ function showProgress() {
 function showScores() {
     let quizEndHTML = 
     `
-    <h1>Quiz Completed, you need correct 28 from 40 question.<h1>
-    <h2 id="score">You Scored: ${quiz.score} of ${quiz.
+    <h1>Quiz Complet,trebuie corecte 28 din 40 de intrebari.<h1>
+    <h2 id="score">Scorul tau: ${quiz.score} din ${quiz.
     questions.length}</h2>
     <div class="quiz-repeat">
-        <a href="index.html">Take Quiz Again</a>
+        <a href="index.html">Incearca din nou.</a>
         </div>
     `;
     let quizElement = document.getElementById("quiz");
